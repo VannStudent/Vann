@@ -657,22 +657,13 @@ button,
   width: 5.4rem;
   aspect-ratio: 1;
   border-radius: 8px;
-  border: 1px solid rgba(255,255,255,.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   background:
-    repeating-linear-gradient(
-      135deg,
-      rgba(255,255,255,.12) 0 1px,
-      transparent 1px 8px
-    ),
-    rgba(255,255,255,.07);
-  overflow: hidden;
-}
-
-.hobby-token img {
-  width: 55%;
-  height: 55%;
-  object-fit: contain;
-  display: block;
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0 1px, transparent 1px 8px),
+    rgba(255, 255, 255, 0.07);
+  color: var(--amber);
+  font-size: 0.78rem;
+  font-weight: 900;
 }
 
 .hobby-item h3 {
@@ -976,6 +967,12 @@ button,
   .hobby-item {
     grid-template-columns: 4.3rem 1fr;
   }
+
+  .hobby-token {
+    width: 4.3rem;
+    font-size: 0.68rem;
+  }
+
   .quote-section h2 {
     font-size: clamp(2.5rem, 15vw, 4.6rem);
   }
