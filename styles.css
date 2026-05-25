@@ -644,17 +644,17 @@ button,
 
 .hobby-item {
   display: grid;
-  grid-template-columns: 5.4rem 1fr;
+  grid-template-columns: 3.4rem 1fr;
   gap: 1rem;
   align-items: center;
-  min-height: 120px;
+  min-height: 90px;
   padding: 1rem;
 }
 
 .hobby-token {
   display: grid;
   place-items: center;
-  width: 5.4rem;
+  width: 3.4rem;
   aspect-ratio: 1;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.18);
